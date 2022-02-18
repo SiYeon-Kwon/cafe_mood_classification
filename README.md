@@ -2,12 +2,21 @@
 
 # Install
 python 3.6
+
 numpy
+
 pandas
+
 matplotlib
+
 seaborn
+
 cv2
+
 torch
+
+
+# How to Use it
 
 You can use all the models provided by torchvision.
 
