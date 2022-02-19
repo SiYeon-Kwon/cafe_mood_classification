@@ -23,3 +23,7 @@ You can use all the models provided by torchvision.
 Set the Linear values of the classifier to suit your image environment.
 
 You have to set the image and model same usage environment.
+
+# Modified
+
+https://github.com/LeanManager/PyTorch_Image_Classifier
