@@ -320,7 +320,7 @@ imshow(image)
 
 # Implement the code to predict the class from an image file
 
-def predict(image_path, model, topk=5):
+def predict(image_path, model, topk=4): #Set the topk according to the number of image classes
     '''Predict the class (or classes) of an image using a trained deep learning model.
     '''
 
