@@ -230,11 +230,11 @@ from collections import OrderedDict
 
 def load_checkpoint(filepath):
     
-    checkpoint = torch.load(filepath)
+    checkpoint = torch.load('C:/Windows/System32/kwontest/checkpoint.pth') #Or checkpoint.pt
     
     if checkpoint['arch'] == 'efficientnet':
         
-        model = models.vgg16(pretrained=True)
+        model = models.efficientnet_b7(pretrained=True)
         
         for param in model.parameters():
             param.requires_grad = False
